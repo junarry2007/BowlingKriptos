@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingKriptos", "BowlingKriptos\BowlingKriptos.csproj", "{EC4C8B4C-3B15-4624-A5A0-EA4BB06F522C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{FEA070B7-6D83-49F7-82AD-8341ACD0DB9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2BFFE2B6-0D6B-4A3C-9D7E-32DABFDAB03D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{2B37E697-CAA6-4AEE-993C-9D702C1F8AAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingKriptosTest", "BowlingKriptosTest\BowlingKriptosTest.csproj", "{097A220E-5BEF-442B-AB46-832C791212DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{889A0694-3D1F-4C68-A4CA-196E1320E504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingGame", "BolingGame\BowlingGame.csproj", "{363B4A7D-2C82-4158-80AA-61FD81F31254}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC4C8B4C-3B15-4624-A5A0-EA4BB06F522C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4C8B4C-3B15-4624-A5A0-EA4BB06F522C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4C8B4C-3B15-4624-A5A0-EA4BB06F522C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4C8B4C-3B15-4624-A5A0-EA4BB06F522C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{097A220E-5BEF-442B-AB46-832C791212DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097A220E-5BEF-442B-AB46-832C791212DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097A220E-5BEF-442B-AB46-832C791212DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097A220E-5BEF-442B-AB46-832C791212DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{363B4A7D-2C82-4158-80AA-61FD81F31254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363B4A7D-2C82-4158-80AA-61FD81F31254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363B4A7D-2C82-4158-80AA-61FD81F31254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363B4A7D-2C82-4158-80AA-61FD81F31254}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC4C8B4C-3B15-4624-A5A0-EA4BB06F522C} = {889A0694-3D1F-4C68-A4CA-196E1320E504}
+		{2B37E697-CAA6-4AEE-993C-9D702C1F8AAB} = {2BFFE2B6-0D6B-4A3C-9D7E-32DABFDAB03D}
+		{097A220E-5BEF-442B-AB46-832C791212DC} = {2B37E697-CAA6-4AEE-993C-9D702C1F8AAB}
+		{363B4A7D-2C82-4158-80AA-61FD81F31254} = {FEA070B7-6D83-49F7-82AD-8341ACD0DB9A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEA453A9-6509-469B-9F85-7CCEDAF795AB}
+	EndGlobalSection
+EndGlobal

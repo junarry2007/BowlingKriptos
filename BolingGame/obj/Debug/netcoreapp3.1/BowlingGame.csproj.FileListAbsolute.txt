@@ -1,0 +1,8 @@
+C:\Users\Lenovo\source\repos\BowlingKriptos\BolingGame\bin\Debug\netcoreapp3.1\BowlingGame.deps.json
+C:\Users\Lenovo\source\repos\BowlingKriptos\BolingGame\bin\Debug\netcoreapp3.1\BowlingGame.dll
+C:\Users\Lenovo\source\repos\BowlingKriptos\BolingGame\bin\Debug\netcoreapp3.1\BowlingGame.pdb
+C:\Users\Lenovo\source\repos\BowlingKriptos\BolingGame\obj\Debug\netcoreapp3.1\BowlingGame.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\BowlingKriptos\BolingGame\obj\Debug\netcoreapp3.1\BowlingGame.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\BowlingKriptos\BolingGame\obj\Debug\netcoreapp3.1\BowlingGame.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\BowlingKriptos\BolingGame\obj\Debug\netcoreapp3.1\BowlingGame.dll
+C:\Users\Lenovo\source\repos\BowlingKriptos\BolingGame\obj\Debug\netcoreapp3.1\BowlingGame.pdb
