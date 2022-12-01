@@ -41,24 +41,27 @@ namespace BowlingGame.Game.Application
                 {
                     score += 10 + StrikeBonus(roll);
                     roll++;
-                    linePinfalls += "X\t";
+                    //Build line console
+                    linePinfalls += "\t" + "X\t";
                 } //Validate if Spare
                 else if (IsSpare(roll))
                 {
                     score += 10 + SpareBonus(roll);
+                    //Build line console
+                    linePinfalls += rolls[roll] + "\t" + "/" + "\t";
                     roll += 2;
-                    linePinfalls += "*-/\t";
                 }
                 else
                 {
                     score += SumOfBallsInFrame(roll);
+                    //Build line console
+                    linePinfalls += rolls[roll] + "\t" + rolls[roll + 1] + "\t";
                     roll += 2;
-                    linePinfalls += "$-$\t";
                 }
                 //Build line console
                 frames++;
-                lineFrame += frames + "\t";
-                lineScore += score + "\t";
+                lineFrame += frames + "\t" + "\t";
+                lineScore += score + "\t" + "\t";
             }
             //Bouild objec to response
             result.Frame = lineFrame.ToString();

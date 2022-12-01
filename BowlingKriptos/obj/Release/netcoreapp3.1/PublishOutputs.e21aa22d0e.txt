@@ -1,0 +1,9 @@
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\Publish\BowlingKriptos.exe
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\Publish\BowlingKriptos.dll
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\Publish\BowlingKriptos.deps.json
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\Publish\BowlingKriptos.runtimeconfig.json
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\Publish\BowlingKriptos.pdb
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\Publish\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\Publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\Publish\BowlingGame.dll
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\Publish\BowlingGame.pdb

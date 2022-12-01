@@ -29,6 +29,7 @@ namespace BowlingKriptos
                 //Get amount and name player
                 IEnumerable<string> namePlayers = keyValue.Select(y => y.Name).Distinct();
                 //Play for each player
+                int countIterator = 0;
                 foreach (string name in namePlayers)
                 {
                     int currentRoll = 0;
@@ -44,10 +45,13 @@ namespace BowlingKriptos
                     //Get result
                     var consol = _serviceGame.Score();
                     //Print to console
-                    Console.WriteLine("Frame\t\t" + consol.Frame);
+                    if(countIterator == 0)
+                        Console.WriteLine("Frame\t\t" + consol.Frame);
                     Console.WriteLine(name);
                     Console.WriteLine("Pinfalls\t" + consol.Pinfalls);
                     Console.WriteLine("Score\t\t" + consol.Score);
+                    //sum countIterator
+                    countIterator++;
                 }
                 Console.ReadLine();
             }
