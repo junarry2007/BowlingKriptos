@@ -1,4 +1,5 @@
 ﻿using BowlingGame.Game.Application;
+using BowlingKriptos.Dto;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -19,34 +20,36 @@ namespace BowlingKriptos
 
             try
             {
-                int frame = 1;
-                string lineFrame="";
-                List<string> jugadores = new List<string>();
-                //Read file line by line.  
-                foreach (string line in File.ReadLines(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"bowling-game.txt")))
-                {
-                    Console.WriteLine(line);
-                    if (line.Contains("Jeff"))
-                    {
-
-                    }
-                    frame++;
-                    lineFrame += frame + "\t";
-                }
-                Console.WriteLine(lineFrame);
-                //Console.WriteLine(score1);
-                //Console.WriteLine(score2);
-
-                /////////////////////////////////////
-                // Suspend the screen.  
-                Console.ReadLine();
-                //Console.WriteLine("Hello World!");
-
-                /*string fileName = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"bowling-game.txt");
-
+                //Read file
+                string fileName = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"bowling-game.txt");
                 IEnumerable<string> lines = File.ReadLines(fileName);
-                IEnumerable<string> query = lines.Where(name => name.Contains("Jeff"));
-                Console.WriteLine(String.Join(Environment.NewLine, lines));*/
+                //Map Rolls
+                List<Player> keyValue = new List<Player>();
+                keyValue = lines.Select(x => x.Split(" ")).Select(y => new Player { Name = y[0], Score = y[1] }).ToList();
+                //Get amount and name player
+                IEnumerable<string> namePlayers = keyValue.Select(y => y.Name).Distinct();
+                //Play for each player
+                foreach (string name in namePlayers)
+                {
+                    int currentRoll = 0;
+                    foreach (Player player in keyValue)
+                    {
+                        //Send to count
+                        if (player.Name == name)
+                        {
+                            _serviceGame.Roll(player.Score == "F" ? 0 : Convert.ToInt32(player.Score), currentRoll);
+                            currentRoll += 1;
+                        }
+                    }
+                    //Get result
+                    var consol = _serviceGame.Score();
+                    //Print to console
+                    Console.WriteLine("Frame\t\t" + consol.Frame);
+                    Console.WriteLine(name);
+                    Console.WriteLine("Pinfalls\t" + consol.Pinfalls);
+                    Console.WriteLine("Score\t\t" + consol.Score);
+                }
+                Console.ReadLine();
             }
             catch (FileNotFoundException ex)
             {
@@ -56,16 +59,6 @@ namespace BowlingKriptos
             {
                 Console.WriteLine("Error en el archivo");
             } 
-
-            //Ejecutar la prueba
-            /*_serviceGame.Roll(10);
-            _serviceGame.Roll(3);
-            _serviceGame.Roll(4);
-            for (int i = 0; i < 16; i++)
-            {
-                _serviceGame.Roll(0);
-            }*/
-            //_serviceGame.Score();
         }
     }
 }

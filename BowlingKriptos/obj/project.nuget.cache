@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cR71PWtNO7Ekd3okDUDNsCZyGdaqKqG8cjx7HZ7Zn76dkRV23nut+yuXrnZvux2aRw4wKXpslkMxZD3GSCooHg==",
+  "dgSpecHash": "oLWCDFoGzBm1JDlYwJTwNJEkbpBuOU1xQrXixv+uEAROfSsCfnLzq6Arwp+iH21xSjlkg8yo68+MrWWvE6ezKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\source\\repos\\BowlingKriptos\\BowlingKriptos\\BowlingKriptos.csproj",
+  "projectFilePath": "C:\\Users\\Juan Esteban\\Documents\\prueba\\BowlingKriptos\\BowlingKriptos\\BowlingKriptos.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    "C:\\Users\\Juan Esteban\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Juan Esteban\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Juan Esteban\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
   ],
   "logs": []
 }

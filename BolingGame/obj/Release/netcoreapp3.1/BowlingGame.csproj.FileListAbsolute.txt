@@ -1,0 +1,10 @@
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BolingGame\bin\Release\netcoreapp3.1\BowlingGame.deps.json
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BolingGame\bin\Release\netcoreapp3.1\BowlingGame.dll
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BolingGame\bin\Release\netcoreapp3.1\BowlingGame.pdb
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BolingGame\obj\Release\netcoreapp3.1\BowlingGame.csproj.AssemblyReference.cache
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BolingGame\obj\Release\netcoreapp3.1\BowlingGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BolingGame\obj\Release\netcoreapp3.1\BowlingGame.AssemblyInfoInputs.cache
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BolingGame\obj\Release\netcoreapp3.1\BowlingGame.AssemblyInfo.cs
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BolingGame\obj\Release\netcoreapp3.1\BowlingGame.csproj.CoreCompileInputs.cache
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BolingGame\obj\Release\netcoreapp3.1\BowlingGame.dll
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BolingGame\obj\Release\netcoreapp3.1\BowlingGame.pdb

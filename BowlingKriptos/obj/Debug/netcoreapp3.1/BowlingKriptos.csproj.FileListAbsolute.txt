@@ -16,3 +16,22 @@ C:\Users\Lenovo\source\repos\BowlingKriptos\BowlingKriptos\bin\Debug\netcoreapp3
 C:\Users\Lenovo\source\repos\BowlingKriptos\BowlingKriptos\bin\Debug\netcoreapp3.1\BowlingGame.dll
 C:\Users\Lenovo\source\repos\BowlingKriptos\BowlingKriptos\bin\Debug\netcoreapp3.1\BowlingGame.pdb
 C:\Users\Lenovo\source\repos\BowlingKriptos\BowlingKriptos\obj\Debug\netcoreapp3.1\BowlingKriptos.csproj.CopyComplete
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BowlingKriptos\bin\Debug\netcoreapp3.1\BowlingKriptos.exe
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BowlingKriptos\bin\Debug\netcoreapp3.1\BowlingKriptos.deps.json
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BowlingKriptos\bin\Debug\netcoreapp3.1\BowlingKriptos.runtimeconfig.json
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BowlingKriptos\bin\Debug\netcoreapp3.1\BowlingKriptos.runtimeconfig.dev.json
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BowlingKriptos\bin\Debug\netcoreapp3.1\BowlingKriptos.dll
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BowlingKriptos\bin\Debug\netcoreapp3.1\BowlingKriptos.pdb
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BowlingKriptos\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BowlingKriptos\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BowlingKriptos\bin\Debug\netcoreapp3.1\BowlingGame.dll
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BowlingKriptos\bin\Debug\netcoreapp3.1\BowlingGame.pdb
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BowlingKriptos\obj\Debug\netcoreapp3.1\BowlingKriptos.csproj.AssemblyReference.cache
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BowlingKriptos\obj\Debug\netcoreapp3.1\BowlingKriptos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BowlingKriptos\obj\Debug\netcoreapp3.1\BowlingKriptos.AssemblyInfoInputs.cache
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BowlingKriptos\obj\Debug\netcoreapp3.1\BowlingKriptos.AssemblyInfo.cs
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BowlingKriptos\obj\Debug\netcoreapp3.1\BowlingKriptos.csproj.CoreCompileInputs.cache
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BowlingKriptos\obj\Debug\netcoreapp3.1\BowlingKriptos.csproj.CopyComplete
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BowlingKriptos\obj\Debug\netcoreapp3.1\BowlingKriptos.dll
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BowlingKriptos\obj\Debug\netcoreapp3.1\BowlingKriptos.pdb
+C:\Users\Juan Esteban\Documents\prueba\BowlingKriptos\BowlingKriptos\obj\Debug\netcoreapp3.1\BowlingKriptos.genruntimeconfig.cache
